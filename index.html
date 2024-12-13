@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Одежды "Passione per la Moda"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>"Passione per la Moda"</h1>
+    
+    <div class="tabs">
+        <button onclick="showTab('clients')">Клиенты</button>
+        <button onclick="showTab('products')">Товары</button>
+        <button onclick="showTab('purchases')">Покупки</button>
+    </div>
+
+    <div id="clients" class="tab-content">
+        <h2>Клиенты</h2>
+        <input type="text" id="clientName" placeholder="Имя Клиента">
+        <button onclick="addClient()">Внести клиента</button>
+        <ul id="clientList"></ul>
+    </div>
+
+
+    <div id="products" class="tab-content" style="display:none;">
+        <h2>Товары</h2>
+        <input type="text" id="productName" placeholder="Название товара"> <br>
+        <input type="number" id="productQuantity" placeholder="Количество товара"> <br>
+        <input type="number" id="productPrice" placeholder="Цена товара"> <br>
+        <button onclick="addProduct()">Внести товар</button>
+        <ul id="productList"></ul>
+    </div>
+
+
+
+<div id="purchases" class="tab-content" style="display:none;">
+    <h2>Покупки</h2>
+    <form id="addPurchaseForm">
+        <input type="text" placeholder="Название товара" required> <br>
+        <input type="number" placeholder="Цена товара" required disabled="true"><br>
+        <input type="number" placeholder="Количество товара" required><br>
+        <input type="text" placeholder="Имя клиента" required><br>
+        <button type="submit">Добавить товар</button>
+    </form>
+    <div id="purchaseList"></div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

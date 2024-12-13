@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://static.tildacdn.com/tild3637-3337-4333-a230-356531373332/mosaico-easyios-3481.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-family: Arial, sans-serif;
+    }   
+
+.tabs {
+    margin-bottom: 20px;
+}    
+
+.tab-content {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.464);
+    border-radius: 30px;
+            }
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url('https://sun9-74.userapi.com/impg/mYcDxYKWmKU6HlxEdJLGr1r6Hj1QqmlCmtGwgA/AA38qRt1vdM.jpg?size=1000x662&quality=96&sign=a4bf505348afc31af858247de80b2c73&c_uniq_tag=vtc9SYg0EZRcZJW_Ot0V835fV4ZVPRa0hYYpKhcaF3c&type=album'); 
+    border-radius: 30px;
+    background-size: cover;
+    font-variant: small-caps;
+    background-repeat: no-repeat ;
+    background-color: rgb(158, 167, 119);
+}
+
+h2 {
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    }
+
+button {
+    background-color: rgb(93, 69, 82);
+    margin-right: 10px;
+    font-variant: small-caps;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 70px;
+    padding: 10px 10px;
+    transition: background-color 0.4s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(180, 160, 85);
+}
